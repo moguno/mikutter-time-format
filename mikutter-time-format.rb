@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-Plugin.create :hide_msg_sec do
+Plugin.create :time_format do
   class Gdk::MiraclePainter
     def timestamp_label_ex
       now = Time.now
