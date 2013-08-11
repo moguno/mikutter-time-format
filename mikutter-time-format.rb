@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
 Plugin.create :hide_msg_sec do
-  UserConfig[:tl_icon_size] ||= 64
-
   class Gdk::MiraclePainter
     def timestamp_label_ex
       now = Time.now
